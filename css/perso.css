@@ -1,6 +1,17 @@
+@font-face {
+        font-family: "lachatteamaman";
+        src: url('../fonts/lachatteamaman.eot');
+        src: url('../fonts/lachatteamaman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lachatteamaman.svg#la Chatte à Maman') format('svg'),
+        url('../fonts/lachatteamaman.woff') format('woff'),
+        url('../fonts/lachatteamaman.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
 body{
 	margin: 30px 0;
-	font-family: Calibri, Helvetica, Arial, 'lachatteatamaman';
+	font-family: Calibri, Helvetica, "lachatteamaman", Arial;
 	font-size: 2.5em;
 }
 
